@@ -96,14 +96,12 @@
 
 -(NSString*)paneIdentifier
 {
-    NSLog(@"paneID");
     return @"org.porkholt.AutoSplit.prefpane";
 }
 
 
 -(NSComparisonResult)caseInsensitiveCompare:(AIModularPane*)p
 {
-    NSLog(@"caseInsens");
     return [[self label] caseInsensitiveCompare:[p label]];
 }
 
