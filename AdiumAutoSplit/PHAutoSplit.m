@@ -54,7 +54,6 @@
 {
     if (!enabled)
         return str;
-    NSLog(@"%@",context);
     if (![context isKindOfClass:[AIContentMessage class]] || [context isKindOfClass:objc_getClass("AIContentContext")])
         return str;
     AIContentMessage * origMsg = (AIContentMessage*)context;
@@ -82,7 +81,6 @@
                                   ];
         [[adium contentController] sendContentObject:msg];
         dt = [dt dateByAddingTimeInterval:0.1f];
-        NSLog(@"send: %@",[beg string]);
     }
     if (len)
     {
@@ -95,7 +93,6 @@
                                   autoreply:origMsg.isAutoreply
                                   ];
         [[adium contentController] sendContentObject:msg];
-        NSLog(@"send: %@",[str string]);
     }
     return nil;
 }
