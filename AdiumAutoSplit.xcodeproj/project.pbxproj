@@ -234,6 +234,7 @@
 				INFOPLIST_FILE = "AdiumAutoSplit/AdiumAutoSplit-Info.plist";
 				INSTALL_PATH = "“$(HOME)/Library/Application Support/Adium 2.0/PlugIns/”";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSION = 1.0.1;
 				WRAPPER_EXTENSION = AdiumPlugin;
 			};
 			name = Debug;
@@ -250,6 +251,7 @@
 				INFOPLIST_FILE = "AdiumAutoSplit/AdiumAutoSplit-Info.plist";
 				INSTALL_PATH = "“$(HOME)/Library/Application Support/Adium 2.0/PlugIns/”";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSION = 1.0.1;
 				WRAPPER_EXTENSION = AdiumPlugin;
 			};
 			name = Release;

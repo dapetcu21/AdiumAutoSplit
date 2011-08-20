@@ -3,7 +3,7 @@
 //  AdiumAutoSplit
 //
 //  Created by Marius Petcu on 8/16/11.
-//  Copyright 2011 Porkholt Labs!. All rights reserved.
+//  Copyright 2011 Marius Petcu. All rights reserved.
 //
 // This program is free software. It comes without any warranty, to
 // the extent permitted by applicable law. You can redistribute it
