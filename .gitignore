@@ -1,0 +1,10 @@
+/build
+*.pbxuser
+*.mode1v3
+xcuserdata
+*.xcworkspace
+*.o
+*.lo
+*.swp
+
+.DS_Store

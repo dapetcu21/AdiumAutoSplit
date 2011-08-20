@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'AdiumAutoSplit' target in the 'AdiumAutoSplit' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import <Adium/AISharedAdium.h>
+#endif
